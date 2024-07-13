@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    .protest-riot-regular {
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }  
+}
+.main_box{
+    background-image:url("comp.jpg");
+    height:800px;
+    background-size:cover;
+}
+.btn_one{
+    font-weight:bold;
+    font-size:80px;
+    color:white;
+    line-height:16px;
+    
+}
+.sidebar_menu .btn_two{
+    position:relative;
+    left:260px;
+    top:-30px;
+    color:white;
+  cursor:progress;
+}
+.sidebar_menu{
+    width:300px;
+    height:100vh;
+    position:fixed;
+   left:-700px;
+  background-color:rgb(21, 22, 24);
+  box-shadow:2px 2px 10px rgb(127, 36, 36);
+  transition:ease-in-out 0.2s ;
+}
+.sidebar_menu .logo {
+    box-shadow:0 4px 8px yellow;
+    height:30px;
+ 
+}
+.sidebar_menu .logo a{
+    position:absolute;
+    left:50px;
+   
+    color:white;
+    font-weight:bold;
+    text-decoration:none; 
+}
+.sidebar_menu .menu{
+    color:white;
+    position:absolute;
+   top:70px;
+   width:100%;
+}
+.sidebar_menu .menu li{
+    margin-top:30px;
+    padding:10px 20px;
+   
+}
+.sidebar_menu .menu li,a{
+     color:white;
+     text-decoration:none;
+}
+.sidebar_menu .menu li:hover{
+   
+    box-shadow:2px 2px 10px rgb(243, 3, 3);
+}
+ .btn_two i:hover{
+  font-size:50px;
+}
+.icons{
+    margin-top:40px;
+    padding-left:50px;
+}
+.sidebar_menu .icons i:hover{
+   scale:2;
+    color:blue;
+}
+.icons i{
+    margin:0 20px;
+}
+#aman{
+    display:none;
+}
+#aman:checked ~.sidebar_menu
+{
+    left:0;
+}
+#aman:checked~.btn_one{
+    opacity:0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
