@@ -1,4 +1,5 @@
-#Sidebar Menu with Navbar Toggle Using HTML and CSS
+                                                                      #MINOR PROJECT-2
+ #Sidebar Menu with Navbar Toggle Using HTML and CSS
 
 In this project, I developed a responsive sidebar menu using only HTML and CSS, without any JavaScript or external frameworks. The sidebar is initially hidden and can be toggled to appear when a user clicks on a menu icon. Once the sidebar is revealed, it displays navigation links, which can be used to navigate through different sections of the website.
 
